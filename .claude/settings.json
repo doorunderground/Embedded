@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd /c \"type c:\\\\stm32_project\\\\test_serial.py\")",
+      "Bash(cmd /c \"python -c \"\"f=open\\(''c:/stm32_project/test_serial2.py'',''w''\\); f.write\\(''import serial\\\\nimport time\\\\n''\\); f.close\\(\\); print\\(''done''\\)\"\"\")"
+    ]
+  }
+}
